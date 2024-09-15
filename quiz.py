@@ -37,7 +37,7 @@ questions = {
     "J) Which one is False : \n1) bool('  ')       2) bool(7)        3) bool('a')       4) bool('')" : 4 ,
 }
 
-######  Checking in  ######
+######  Check in  ######
 
 while number >= 0 and number <= 9 :
         
