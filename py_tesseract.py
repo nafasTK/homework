@@ -106,7 +106,7 @@ while a == True :
 
     ## Check the file extension ##
     else :
-        print ("It's not defined !\nChoose one of the two extensions jpg or png")
+        print ("There is no file with this extension !\nChoose one of the two extensions jpg or png\n")
         a = True
 
 end = input(" ")
