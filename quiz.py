@@ -1,3 +1,5 @@
+######  importing & Initializing variables  ######
+
 import datetime
 number = 0
 qn = 0
