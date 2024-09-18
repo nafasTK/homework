@@ -61,7 +61,7 @@ while a == True :
 
         ## Open the file ##
         try :
-            image = cv2.imread(f"{file_name}.png")
+            image = cv2.imread(f"{file_name}.jpg")
 
             pyt.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
             gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
