@@ -24,7 +24,7 @@ while a == True :
             image = cv2.imread(f"{file_name}.png")
             pyt.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
             gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            text = pyt.image_to_string(gray_image, lang='eng')
+            text = pyt.image_to_string(gray_image, lang = 'eng')
             ## Result ##
             print(f"\nresult :\n{text}")
 
@@ -65,7 +65,7 @@ while a == True :
 
             pyt.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
             gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            text = pyt.image_to_string(gray_image, lang='eng')
+            text = pyt.image_to_string(gray_image, lang = 'eng')
             ## Result ##
             print(f"\nresult :\n{text}")
 
