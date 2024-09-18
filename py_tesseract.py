@@ -1,7 +1,6 @@
 #########  importing  #########
 
 import pytesseract as pyt
-from PIL import Image
 import cv2
 
 #########  Boolean initial value  #########
